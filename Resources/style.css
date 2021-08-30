@@ -11,7 +11,14 @@ body{
 #me{
     width: 10rem;
     height: 10rem;
+    border-radius: 5cm;
+    border: lime 5px double;
+    grid-column: 4/5 ;
+    position: relative;
+    right: 4rem;
+    
 }
+
 header{
     border-bottom: whitesmoke 0.25rem double;
     display: grid;
@@ -40,6 +47,23 @@ header a{
 header nav{
     grid-column: 3/6;
 }
+#about{
+    
+    text-align: center;
+    display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(3,8rem);
+}
+#about h2 {
+    padding-top: 1.5rem;
+    grid-area: 1/3/2/4;
+}
+#about p {
+    
+    grid-area: 2/2/4/5;
+    z-index: 3
+}
+
         
  
  
