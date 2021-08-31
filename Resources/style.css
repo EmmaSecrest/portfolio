@@ -4,7 +4,9 @@
 
      }
 body{
-        background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+        /* background-image: linear-gradient(to right, #ff6e7f, #bfe9ff); */
+        background-image: url('/Resources/background-image3.jpeg');
+        background-size: contain;
         color: white;
 
      }
@@ -100,7 +102,7 @@ text-align: center;
     
 }
 #contact{
-    border: lightseagreen 1px solid;
+   
     text-align: center; 
     position: relative;
     bottom: 15rem;
