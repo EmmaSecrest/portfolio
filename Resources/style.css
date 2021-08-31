@@ -87,3 +87,25 @@ header nav{
     margin-left: 2rem;
 
 }
+#skills{
+ /* border: lightseagreen 1px solid; */
+ position: relative;
+    bottom: 20rem;
+text-align: center;
+
+}
+#skills img{
+    width: 4rem;
+    height: 4rem;
+    
+}
+#contact{
+    border: lightseagreen 1px solid;
+    text-align: center; 
+    position: relative;
+    bottom: 15rem;
+    
+}
+a:hover{
+    color:#8f70d8;
+}
