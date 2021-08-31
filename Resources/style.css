@@ -115,7 +115,19 @@ a:hover{
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-
+    #contact{
+        position: static;
+       }
+       #projects{
+           display:block;
+           text-align: center;
+           }
+       #skills{
+           position: static;
+       }
+       #about{
+           display: block;
+       }
 }
 
 /* Portrait */
@@ -124,6 +136,19 @@ a:hover{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #contact{
+        position: static;
+       }
+       #projects{
+           display:block;
+           text-align: center;
+           }
+       #skills{
+           position: static;
+       }
+       #about{
+           display: block;
+       }
 }
 
 /* Landscape */
@@ -132,7 +157,19 @@ a:hover{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-
+    #contact{
+        position: static;
+       }
+       #projects{
+           display:block;
+           text-align: center;
+           }
+       #skills{
+           position: static;
+       }
+       #about{
+           display: block;
+       }
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
@@ -142,6 +179,19 @@ a:hover{
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    #contact{
+        position: static;
+       }
+       #projects{
+           display:block;
+           text-align: center;
+           }
+       #skills{
+           position: static;
+       }
+       #about{
+           display: block;
+       }
 
 }
 
@@ -151,6 +201,19 @@ a:hover{
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #contact{
+        position: static;
+       }
+       #projects{
+           display:block;
+           text-align: center;
+           }
+       #skills{
+           position: static;
+       }
+       #about{
+           display: block;
+       }
 }
 
 /* Landscape */
@@ -159,7 +222,19 @@ a:hover{
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-
+    #contact{
+        position: static;
+       }
+       #projects{
+           display:block;
+           text-align: center;
+           }
+       #skills{
+           position: static;
+       }
+       #about{
+           display: block;
+       }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -179,6 +254,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+           display: block;
+       }
 }
 
 /* Portrait */
@@ -197,6 +275,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Landscape */
@@ -215,6 +296,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -234,6 +318,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Portrait */
@@ -252,6 +339,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Landscape */
@@ -270,6 +360,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* ----------- iPhone X ----------- */
@@ -289,6 +382,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Portrait */
@@ -307,6 +403,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Landscape */
@@ -325,6 +424,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 /* ----------- Galaxy S3 ----------- */
 
@@ -343,6 +445,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Portrait */
@@ -361,6 +466,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Landscape */
@@ -379,6 +487,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
@@ -388,7 +499,19 @@ a:hover{
   and (device-width: 320px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
-
+    #contact{
+        position: static;
+       }
+       #projects{
+           display:block;
+           text-align: center;
+           }
+       #skills{
+           position: static;
+       }
+       #about{
+        display: block;
+    }
 }
 
 /* Portrait */
@@ -407,6 +530,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Landscape */
@@ -425,6 +551,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* ----------- Galaxy S6 ----------- */
@@ -444,6 +573,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Portrait */
@@ -462,6 +594,9 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
 
 /* Landscape */
@@ -480,4 +615,7 @@ a:hover{
        #skills{
            position: static;
        }
+       #about{
+        display: block;
+    }
 }
